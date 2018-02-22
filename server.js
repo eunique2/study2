@@ -13,7 +13,6 @@ function send404Reponse(res){
   res.writeHead(404,{"Context-Type" : "text/plain"});
   res.write("404 Error : File not exists!!");
   res.end();
-
 }
 
 //사용자 요구 응답처리
